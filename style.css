@@ -1,4 +1,4 @@
-.judul{
+.judul {
     width: 25%;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -9,7 +9,8 @@
     text-align: center;
 
 }
-.tag{
+
+.tag {
     margin-top: 25px;
     background-color: antiquewhite;
     width: 25%;
@@ -23,7 +24,8 @@
 
 
 }
-.form{
+
+.form {
     margin-bottom: 25px;
     background-color: blanchedalmond;
     width: 25%;
@@ -33,7 +35,8 @@
     padding-top: 12px;
 
 }
-.inputname{
+
+.inputname {
     border: 10px;
     background-color: white;
     border-style: solid;
@@ -41,7 +44,8 @@
     border-radius: 10px;
     padding: 12px 20px;
 }
-.inputtentang{
+
+.inputtentang {
     border: 10px;
     background-color: white;
     border-style: solid;
@@ -49,7 +53,8 @@
     border-radius: 10px;
     padding: 12px 20px;
 }
-.inputpendidikan{
+
+.inputpendidikan {
     border: 10px;
     background-color: white;
     border-style: solid;
@@ -57,7 +62,8 @@
     border-radius: 10px;
     padding: 12px 20px;
 }
-.inputpengalaman{
+
+.inputpengalaman {
     border: 10px;
     background-color: white;
     border-style: solid;
@@ -65,84 +71,99 @@
     border-radius: 10px;
     padding: 12px 20px;
 }
-.submit{
-  background-color: cadetblue;
-  color: white;
-  padding: 10px 10px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+
+.submit {
+    background-color: cadetblue;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
+
 .submit:hover {
     background-color: rgb(0, 0, 88);
     color: white;
-  }
-.reset{
-  color: white;
-  padding: 10px 10px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  background-color: lightcoral ;
 }
+
+.reset {
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: lightcoral;
+}
+
 .reset:hover {
     background-color: crimson;
     color: white;
-  }
-.inputfoto{
+}
+
+.inputfoto {
     border: 10px;
     background-color: white;
     border-style: solid;
     border-width: medium;
     border-radius: 10px;
-    padding: 12px 20px; 
+    padding: 12px 20px;
 }
-.inputkeahlian{
+
+.inputkeahlian {
     border: 10px;
     background-color: white;
     border-style: solid;
     border-width: medium;
     border-radius: 10px;
-    padding: 12px 20px; 
+    padding: 12px 20px;
 }
-.table{
+
+.table {
     margin: auto;
     border-style: solid;
     border-width: medium;
     border-radius: 10px;
 }
-.judul{
+
+.judul {
     background-color: blanchedalmond;
     border-style: solid;
     border-width: medium;
 }
-.isi{
+
+.isi {
     background-color: antiquewhite;
     border-style: solid;
     border-width: medium;
 
 }
-.a{
+
+.a {
     border-bottom-style: solid;
     border-width: medium;
     border-right-style: solid;
 }
-.z{
+
+.z {
     border-bottom-style: solid;
     border-width: medium;
 }
-.y{
+
+.y {
     border-width: medium;
 }
-.b{
+
+.b {
     border-width: medium;
     border-right-style: solid;
 }
-.biodata{
+
+.biodata {
     border-radius: 10px;
     width: 30%;
 }
-.biojudul{
+
+.biojudul {
     background-color: rgb(248, 252, 175);
     border-width: medium;
     border: 5px;
@@ -151,24 +172,51 @@
     text-align: center;
 
 }
-.isibio{
+
+.isibio {
     background-color: rgb(248, 252, 175);
     border-width: medium;
     border: 5px;
     border-style: solid;
     border-color: rgb(255, 232, 205);
 }
-.kontakbio{
+
+.kontakbio {
     background-color: rgb(248, 252, 175);
     border-width: medium;
     border: 5px;
     border-style: solid;
     border-color: rgb(255, 232, 205);
 }
-.bioa{
+
+.bioa {
     background-color: rgb(248, 252, 175);
     border-width: medium;
     border: 5px;
     border-style: solid;
     border-color: rgb(255, 232, 205);
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: #111;
 }
